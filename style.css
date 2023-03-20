@@ -69,8 +69,8 @@ html,body
    position: relative;
    margin: 4%;
   top: -10vh;
-   font-family: 'Arial Black';
-   line-height: 15px;
+   font-family: 'Lucida Console';
+   line-height: 20px;
 }
 .navbar
 {
