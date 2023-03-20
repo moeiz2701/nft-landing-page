@@ -2,6 +2,37 @@
     font-family: "chilly";
     src: url(ChillyUI-Bold.ttf);
 }
+@font-face {
+    font-family: "leap";
+    src: url(LT\ Leap\ Medium.ttf);
+}
+@font-face {
+    font-family: "geo";
+    src: url(GeoffreyJP-Regular\(1\).ttf);
+}
+@font-face {
+    font-family: "pixel";
+    src: url(rainyhearts.ttf);
+}
+@font-face
+{
+    font-family: "up";
+    src: url(upheavtt.ttf);
+}
+@font-face
+{
+    font-family: "mine";
+    src: url(Minecraftia-Regular.ttf);
+
+}
+@font-face {
+    font-family: "arcade";
+    src: url(8-bit\ Arcade\ Out.ttf);
+}
+@font-face {
+    font-family: "pixel2";
+    src: url(slkscre.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -52,11 +83,12 @@ html,body
 .aboutpic h4
 {
        text-align: center;
-    font-family: Consolas;
+    font-family: "pixel2";
     align-content: center;
-    padding: 5px 10%;
-    line-height: 22px;
+    padding: 15px 10%;
+    line-height: 25px;
     color: darkgray;
+    font-size: 15px;
     
 }
 .banner{
@@ -73,7 +105,7 @@ html,body
    position: relative;
    margin: 4%;
   top: -10vh;
-   font-family: 'Arial Black';
+   font-family: "chilly";
    line-height: 17px;
 }
 .navbar
@@ -475,8 +507,9 @@ button{
 .black h2
 {
     color: black;
-    
+    font-family: "arcade";
     position: relative;
+    font-size: 60px;
 }
 .black h4
 {
@@ -680,6 +713,9 @@ position: relative;
 .abouth h2
 {
     line-height: 50px;
+    font-family: "arcade";
+    font-size: 60px;
+    padding: 20px;
 }
 .ultimate
 {
@@ -688,11 +724,18 @@ position: relative;
 .why
 {
     background-color: orange;
-   
+   padding: 10px;
 }
 .why h4
 {
     color: black;
+}
+.why h2
+{
+    font-family: "arcade";
+    font-size: 60px;
+    color: black;
+
 }
 .mint h1
 {
