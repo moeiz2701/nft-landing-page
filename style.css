@@ -69,8 +69,8 @@ html,body
    position: relative;
    margin: 4%;
   top: -10vh;
-   font-family: 'Lucida Console';
-   line-height: 20px;
+   font-family: 'Arial Black';
+   line-height: 17px;
 }
 .navbar
 {
@@ -740,10 +740,4 @@ position: relative;
 {
     color: yellow;
     
-}
-.box
-{
-
-    margin: 4%;
-    background-color: #ffeb3b;
 }
