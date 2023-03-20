@@ -1,0 +1,780 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html,body
+{
+   
+    background-color: floralwhite;
+    
+
+}
+.lower
+{
+    width: 100%;
+    height: 30vh;
+    place-items: center;
+    text-align: center;
+    background-color: floralwhite;
+    
+}
+.lower h2
+{
+    text-align: center;
+    padding: 25px;
+    position: relative;
+    color: grey;
+    
+}
+.lower h6
+{
+    position: relative;
+    top: -4vh;
+    text-align: center;
+    color: grey;
+}
+.lowerlogo
+{
+    position: relative;
+    top: -12vh;
+    right: 55px;
+}
+.lowerpic
+{
+    position: relative;
+    top: -0vh
+}
+.aboutpic h4
+{
+       text-align: center;
+    font-family: Consolas;
+    align-content: center;
+    padding: 5px 15%;
+    line-height: 22px;
+    color: darkgray;
+    
+}
+.banner{
+    
+    width: 100%;
+   
+    height:  120vh;
+    background-color: rgb(79, 66, 91);
+    background-size: 17%;
+    
+    
+}
+.navbar
+{
+     
+    width: 100%;
+    height: 10%;
+    margin : auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.logo{
+    padding: 50px 10px;
+    width:15vh;
+    cursor:pointer;
+    position: relative;
+    top: 1vh;
+
+}
+.navbar ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 5px 5px;
+    position: relative;
+    
+}
+.navbar ul li a
+{
+        text-decoration: none;
+    font-family: Lucida Console;
+    color:grey;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.navbar ul li::after{
+    content: '';
+    height:3px;
+    width:5%;
+    background: black;
+    position : absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after
+{
+    width :100%;
+}
+.content
+{
+    width: 100%;
+    position: relative;
+    top:50vh;
+    transform: translateY(-50%);
+    text-align:center;   
+}
+
+.content h2
+{
+     color: white;
+    font-size: 40px;
+    margin-top:30px; 
+    font-family: Arial Black;
+    position: relative;
+    top: 10vh;
+}
+.content h3
+{
+    font-family: Arial Black;
+    color: yellow;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 3px;
+     position: relative;
+    top: 11vh;
+}
+.content h6
+{
+    font-size: 14px;
+   font-family: Lucida Console;
+    color : yellow;
+    line-height:15px;
+     position: relative;
+    top: 12vh;
+}
+.content h5
+{
+    color: black;
+    font-size: 17px;
+   font-family: Lucida Console;
+    
+    line-height:15px;
+     position: relative;
+    top: 12.5vh;
+}
+.about 
+{
+  background-color: darkslategray;
+    width: 100%;
+    height: 250%;
+    background-size: 17%;
+    text-align: center;
+    position: relative;
+    
+    
+    
+    
+  
+   
+    
+}
+
+.about h2
+{
+    
+    
+    text-align: center;
+    color: black;
+    line-height: 70px;
+    font-size: 35px;
+    font-family: Lucida Console;
+    padding: 0px;
+      
+    
+    
+}
+.about h6
+{
+    color: white;
+    font-family: Lucida Console;
+    font-size:85%; 
+    line-height:17px;
+    text-align: center;
+    width:100%;
+    align-items: center;
+    
+}
+.about h3
+{
+    text-align: center;
+}
+.button
+{
+    width :100%;
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    height: auto;
+}
+.butt{
+    
+        width: 15%;
+          
+}
+
+.column
+{
+    float:left;
+    width: 5%;
+    padding :2% ;
+    text-align: bottom;
+     
+     
+    
+   
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    position: absolute;
+   
+}
+.buttonloc
+{
+    position: relative;
+    top: -35vh;
+    right: -5px;
+}
+.images
+{
+    text-align: center;
+    top:0;
+    position: relative;
+    
+}
+.care
+{
+    width:100%;
+    position: absolute;
+    top: 110%;
+}
+.ship{
+    text-align: center;
+    align-content: center;
+    position: relative;
+    padding: 10px 30%;
+    top: -7vh;
+}
+.sad{
+    
+}
+
+.ship2
+{
+padding: 0px 5%;
+    position: absolute;
+    top: 1280px;
+}
+.twitter
+{
+   
+}
+.mint
+{
+  background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)) ,url(7.png);
+    width: 100%;
+    height:  100vh;
+    background-size: 17%;
+        align-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    
+
+}
+.upper
+{
+    width: 100%;
+    
+        height:20vh;
+    background-color: floralwhite;
+    
+}
+.mintpanda
+{
+    position:centre;
+    text-align: center;
+    
+   position: absolute;
+    
+    
+ 
+}
+button
+{
+    position: relative;
+    height: 60px;
+    width: 200px;
+    margin: 0 35px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: #111;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+    
+}
+button:first-child{
+background: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
+    background-size: 400%;
+   
+    
+}
+button:last-child{
+background: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
+    background: linear-gradient(90deg,#03a9f4 ,#f441a5, #ffeb3b, #03a9f4 );
+    background-size: 400%;
+    
+}
+button:first-child:before,button:last-child:before
+{
+    content: '';
+    position: absolute;
+    background: inherit;
+    top:-5px;
+    right:-5px;
+    bottom: -5px;
+    left: -5px;
+    border-radius: 50px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+button:first-child:before, button:last-child:before
+{
+    opacity: 1;
+    z-index: -1;
+}
+
+button{
+    z-index: 1;
+    animation: glow 8s linear infinite;
+}
+
+
+@keyframes glow
+{
+    0%{background-position: 0%;}
+    100%{background-position: 400%;}
+
+}
+.mintbutton
+{
+    position: relative;
+    top: -2vh;
+    left: 30px;
+}
+.egg
+{
+    background-color: hotpink;
+    height: 130vh;
+    text-align: center;
+}
+.easter
+{
+    position: relative;
+    top: 10vh;
+}
+.egg h2
+{
+     font-family: Lucida Console;
+    font-size: 40px;
+    padding: 30px;
+}
+.egg h5
+{
+  font-family: Lucida Console;
+}
+.homelower
+{
+    background-color: floralwhite;
+}
+.phases
+{
+    width: 100%;
+    height: 540vh;
+    background-color:black;
+    text-align: center;
+    position: relative;
+    
+    
+    
+
+}
+.phasebutton
+{
+    position: relative;
+    top: -33vh;
+
+}
+.phases h5
+
+{
+    color: lightgrey;
+    font-family: Lucida Console;
+    position: relative;
+    top: 5vh;
+    padding: 3px 15%;
+    line-height: 15px;
+
+}
+.phase2
+{
+    position: relative;
+    top: -68vh;
+}
+.phase2w
+{
+    position: relative;
+    top: -5vh
+
+}
+.coming
+{
+     
+}
+.phase3
+{
+    position: relative;
+    top: -74vh;
+}
+.coming h2
+{
+    font-family: Arial Black;
+    color: white;
+    font-size: 45px;
+    position: relative;
+    top: 7vh;
+    line-height: 130px;
+
+}
+.phase4
+{
+    position: relative;
+    top: -30vh;
+   
+
+}
+.main{
+    position: relative;
+    top: 10vh;
+}
+.homepanda
+{
+    position: relative;
+    top: 17vh;
+    
+    
+}
+.head
+{
+    position: relative;
+    top: 10vh;
+    
+
+}
+.head2
+{
+    position: relative;
+    top: 10vh;
+
+}
+.black
+{
+    background-color: darkorchid;
+    position: relative;
+    height: 80%;
+    
+}
+.black h2
+{
+    color: black;
+    
+    position: relative;
+}
+.black h4
+{
+    color: darkgray;
+   position: relative;
+  
+   
+
+}
+.coming
+{
+    width: 100%;
+    background-color: black;
+    background-size: 17%;
+    text-align: center;
+    height: 160vh;
+    
+
+}
+.coming h2
+{
+    color: black;
+    top: -3vh;
+}
+.ship3
+{
+    position: relative;
+    top: -60vh;
+}
+.now
+{
+   background-color: orange;
+    padding: 20px;
+   
+}
+.now h2
+{
+    color: black;
+}
+.now h4
+{
+    
+    color: black;
+}
+.cowboy
+{
+    position: relative;
+    top: 4vh;
+    
+}
+.specs1
+{
+    position: relative;
+    background-color: rgb(206, 131, 131);
+    height: 33vh;
+    
+}
+.specs1 h4
+{
+    text-align: center;
+    color: black;
+    padding: 7px 30%;
+    position: relative;
+    top: -23vh;
+    font-family:Lucida Console;
+    left: 33px;
+   
+}
+.blackpanda
+{
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    height: 50vh;
+}
+.exphase
+{
+    top: 0vh;
+    position: relative;
+   
+
+}
+.phases h2
+{
+    color: lightgrey;
+}
+.coming h6
+{
+    color: black;
+    
+}
+.coming h5
+{
+    color: darkgrey;
+    font-family: Lucida Console;
+    padding: 3px 15%;
+    position: relative;
+    line-height: 17px;
+}
+.phase4 h5
+{
+    position: relative;
+    top: 5vh;
+
+}
+.text1
+{
+    position: relative;
+    top: -10vh;
+}
+.specs2
+{
+    
+    background-color: rgb(59, 121, 121);
+    height: 33vh;
+}
+.specs2 h4
+{
+     text-align: center;
+    color: black;
+    padding: 7px 30%;
+    position: relative;
+    top: -23vh;
+    font-family:Lucida Console;
+    left: 33px;
+}
+.specs3
+{
+    background-color: rgb(201, 122, 148);
+    height: 33vh;
+}
+.specs3 h4
+{
+    text-align: center;
+    color: black;
+    padding: 7px 30%;
+    position: relative;
+    top: -23vh;
+    font-family:Lucida Console;
+    left: 33px;
+
+}
+.specs4
+{
+    background-color: rgb(77, 136, 159);
+    height: 33vh;
+
+}
+.specs4 h4
+{
+     text-align: center;
+    color: black;
+    padding: 7px 30%;
+    position: relative;
+    top: -23vh;
+    font-family:Lucida Console;
+    left: 33px;
+}
+.phase1w
+{
+    position: relative;
+    top: -15vh;
+}
+.phase1p
+{
+    position: relative;
+    top: -75vh;
+
+}
+.phase1
+{
+    position: relative;
+    top: 30vh;
+}
+.gif
+{
+    position: relative;
+    top: -62vh;
+
+}
+.exphase2
+{
+position: relative;
+    top: -26vh;
+}
+.broke
+{
+    position: relative;
+    top: -28vh;
+}
+.monster
+{
+    position: relative;
+    top: -75vh;
+}
+.reddit
+{
+    position: relative;
+    right: -5px;
+
+}
+.abouth h2
+{
+    line-height: 50px;
+}
+.ultimate
+{
+    background-image:  linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,0.90)) ;
+}
+.why
+{
+    background-color: orange;
+    margin: 50px;
+
+}
+.why h4
+{
+    color: black;
+}
+.mint h1
+{
+    position: relative;
+    top: -30vh;
+}
+
+.instructions
+{
+    position: relative;
+    top: -22vh;
+    
+}
+.instructions h3
+{
+    font-family: Lucida Console;
+    color: yellow;
+    font-size: 12px;
+}
+.inst
+{
+    background-color: black;
+    text-align: center;
+    height: 120%;
+
+}
+.inst h1
+{
+    padding: 7vh;
+    font-family: Arial Black;
+    color: lightgray;
+}
+.yellow
+{
+    background-color: yellow;
+    margin: 10vh;
+    position: relative;
+    top: -10vh;
+}
+.yellow h5
+{
+    padding: 10px;
+    font-family: Lucida Console;
+    line-height: 20px;
+
+}
+.yellow h4
+{
+    color: yellow;
+    
+}
