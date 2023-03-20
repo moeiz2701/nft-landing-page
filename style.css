@@ -79,7 +79,7 @@ html,body
     
 }
 .logo{
-    padding: 50px 10px;
+    padding: 50px 3%;
     width:15vh;
     cursor:pointer;
     position: relative;
@@ -90,7 +90,7 @@ html,body
 {
     list-style: none;
     display: inline-block;
-    margin: 5px 5px;
+    margin: 5px 5%;
     position: relative;
     
 }
@@ -100,7 +100,7 @@ html,body
     font-family: Lucida Console;
     color:grey;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 18px;
 }
 .navbar ul li::after{
     content: '';
@@ -120,30 +120,12 @@ html,body
 {
     width: 100%;
     position: relative;
-    top:50vh;
+    top: 40%;
     transform: translateY(-50%);
     text-align:center;   
 }
 
-.content h2
-{
-     color: white;
-    font-size: 40px;
-    margin-top:30px; 
-    font-family: Arial Black;
-    position: relative;
-    top: 10vh;
-}
-.content h3
-{
-    font-family: Arial Black;
-    color: yellow;
-    margin: 20px auto;
-    font-weight: 100;
-    line-height: 3px;
-     position: relative;
-    top: 11vh;
-}
+
 .content h6
 {
     font-size: 14px;
@@ -199,7 +181,7 @@ html,body
     color: white;
     font-family: Lucida Console;
     font-size:85%; 
-    line-height:17px;
+    line-height:3%;
     text-align: center;
     width:100%;
     align-items: center;
@@ -244,8 +226,8 @@ html,body
 .buttonloc
 {
     position: relative;
-    top: -35vh;
-    right: -5px;
+   top: -35vh;
+    justify-content: center;
 }
 .images
 {
@@ -274,7 +256,7 @@ html,body
 .ship2
 {
 padding: 0px 5%;
-    position: absolute;
+    positon: absolute;
     top: 1280px;
 }
 .twitter
