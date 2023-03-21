@@ -93,11 +93,12 @@ html,body
 }
 .banner{
     
-    width: 100%;
-    height:  90%;
-    background-color: rgb(46, 41, 64);
+    width:100%;
+    height: 200%;
+    background-color: rgb(144, 134, 180);
     text-align: center;
     position: relative;
+    background-size: 17%;
    
 }
 .banner h6
