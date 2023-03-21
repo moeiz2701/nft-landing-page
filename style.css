@@ -116,21 +116,16 @@ html,body
     height: 6vh ;
     margin : auto;
     padding: 2% 3px;
-    margin-left: 4px;
     margin-right: 4%;
     display: flex;
-   
     justify-content: space-evenly;
+    
     
 }
 .logo{
     
-    width: 13%;
-    cursor:pointer;
-    height: 140%;
-   position: relative;
-   top: -10px;
-   
+    
+  
    
 
 }
@@ -305,7 +300,7 @@ padding: 0px 5%;
 {
     width: 100%;
     position: fixed;
-    height:12vh;
+    height:10vh;
     background-color: floralwhite;
     
 }
