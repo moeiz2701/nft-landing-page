@@ -97,6 +97,7 @@ html,body
     height:  90%;
     background-color: rgb(46, 41, 64);
     text-align: center;
+    position: relative;
    
 }
 .banner h6
