@@ -102,10 +102,10 @@ html,body
 {
     color: yellow;
   font-size: medium;
-   position: relative;
-   margin: 4%;
-  top: -10vh;
-   font-family: "chilly";
+    margin: 4%;
+ position: relative;
+ top: -13vh;
+   font-family: "pixel2";
    line-height: 17px;
 }
 .navbar
@@ -246,6 +246,7 @@ html,body
 {
   position: relative;
   top: -5vh;
+  font-family: "arcade";
    
 }
 .images
@@ -300,7 +301,7 @@ padding: 0px 5%;
 {
     width: 100%;
     position: fixed;
-    height:15vh;
+    height:12vh;
     background-color: floralwhite;
     
 }
@@ -475,12 +476,12 @@ button{
 
 }
 .main{
-   padding: 10vh;
+   padding: 15vh;
 }
 .homepanda
 {
    
-    
+    position: relative;
     
     
 }
@@ -542,12 +543,16 @@ button{
 .now
 {
    background-color: orange;
-    padding: 20px;
+ 
+    height: 100%;
    
 }
 .now h2
 {
     color: black;
+    padding: 20px;
+    font-family: "arcade";
+    font-size: 70px;
 }
 .now h4
 {
@@ -556,16 +561,16 @@ button{
 }
 .cowboy
 {
-    position: relative;
-    top: 4vh;
+   
+    
     
 }
 .specs1
 {
    
-    background-color: rgb(188, 186, 40);
+    background-color: rgb(246, 246, 63);
     text-align: center;
-   position:relative;
+  
   
     
 }
@@ -574,9 +579,9 @@ button{
     text-align: center;
     color: black;
    padding: 3vh;
-    position: relative;
+  
     
-    font-family:"chilly";
+    font-family:"pixel2";
     
    
 }
@@ -625,7 +630,7 @@ button{
 .specs2
 {
     
-    background-color: rgb(204, 161, 68);
+    background-color :rgb(248, 58, 58);
     text-align: center;
 }
 .specs2 h4
@@ -633,29 +638,29 @@ button{
      text-align: center;
     color: black;
    padding: 3vh;
-    position: relative;
   
-    font-family:Lucida Console;
+  
+    font-family:"pixel2";
     
 }
 .specs3
 {
-    background-color: rgb(201, 122, 148);
+    background-color: rgb(243, 88, 139);
     text-align: center;
 }
 .specs3 h4
 {
     text-align: center;
     color: black;
-    position: relative;
+   
     padding: 3vh;
-    font-family:Lucida Console;
+    font-family:"pixel2";
    
 
 }
 .specs4
 {
-    background-color: rgb(77, 136, 159);
+    background-color: rgb(78, 143, 241);
    text-align: center;
 
 }
@@ -663,8 +668,8 @@ button{
 {
      text-align: center;
     color: black;
-    position: relative;
-    font-family:Lucida Console;
+   
+    font-family:"pixel2";
     padding: 3vh;
 }
 .phase1w
@@ -787,3 +792,10 @@ position: relative;
     color: yellow;
     
 }
+.france
+{
+    position: relative;
+}
+.buttonloc h3
+{
+  
