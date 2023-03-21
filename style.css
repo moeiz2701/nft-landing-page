@@ -299,8 +299,8 @@ padding: 0px 5%;
 .upper
 {
     width: 100%;
-    position: relative;
-    height:5%;
+    position: fixed;
+    height:15vh;
     background-color: floralwhite;
     
 }
