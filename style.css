@@ -143,7 +143,7 @@ html,body
     font-family: Lucida Console;
     color:grey;
     text-transform: uppercase;
-    padding: 5px;
+    padding: 1%;
 }
 .navbar ul li::after{
     content: '';
