@@ -47,7 +47,7 @@ html,body
 }
 .lower
 {
-    width: auto;
+    width: 110%;
     height: 30vh;
     place-items: center;
     text-align: center;
@@ -93,7 +93,7 @@ html,body
 }
 .banner{
     
-    width:auto;
+    width:110%;
     height: 200%;
     background-color: rgb(192, 92, 147);
     text-align: center;
@@ -547,7 +547,7 @@ button{
    
     background-color: rgb(246, 246, 63);
     text-align: center;
-    width: auto;
+    width: 110%;
   
   
     
@@ -610,7 +610,7 @@ button{
     
     background-color :rgb(248, 58, 58);
     text-align: center;
-    width: auto;
+    width: 110%;
 }
 .specs2 h4
 {
@@ -626,7 +626,7 @@ button{
 {
     background-color: rgb(243, 88, 139);
     text-align: center;
-    width: auto;
+    width: 110%;
 }
 .specs3 h4
 {
@@ -642,7 +642,7 @@ button{
 {
     background-color: rgb(78, 143, 241);
    text-align: center;
-   width: auto;
+   width: 110%;
 
 }
 .specs4 h4
