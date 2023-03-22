@@ -225,24 +225,7 @@ html,body
           
 }
 
-.column
-{
-    float:left;
-    width: 5%;
-    padding :2% ;
-    text-align: bottom;
-     
-     
-    
-   
-}
-.row::after{
-    content: "";
-    display: table;
-    clear: both;
-    position: absolute;
-   
-}
+
 .buttonloc
 {
   position: relative;
@@ -252,9 +235,9 @@ html,body
 }
 .images
 {
-    text-align: center;
-    top:0;
-    position: relative;
+   
+  width=100%;
+ 
     
 }
 .care
@@ -288,13 +271,12 @@ padding: 0px 5%;
 {
   background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)) ,url(7.png);
     width: 100%;
-    height:  100vh;
+    height:  150%;
     background-size: 17%;
-        align-content: center;
-    align-items: center;
-    text-align: center;
-    display: grid;
-    place-items: center;
+     
+    
+   
+   
     
 
 }
@@ -309,9 +291,9 @@ padding: 0px 5%;
 .mintpanda
 {
     position:centre;
-    text-align: center;
+  
     
-   position: absolute;
+   position: relative;
     
     
  
@@ -381,9 +363,9 @@ button{
 }
 .mintbutton
 {
-    position: relative;
-    top: -2vh;
-    left: 30px;
+   
+   
+  
 }
 .egg
 {
@@ -725,7 +707,7 @@ position: relative;
     line-height: 50px;
     font-family: "arcade";
     font-size: 60px;
-    padding: 20px;
+    padding: 30px;
 }
 .ultimate
 {
