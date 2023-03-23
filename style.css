@@ -47,7 +47,7 @@ html,body
 }
 .lower
 {
-    width: 110%;
+    width: 100%;
     height: 30vh;
     place-items: center;
     text-align: center;
@@ -57,7 +57,7 @@ html,body
 .lower h2
 {
     text-align: center;
-    padding: 25px;
+    padding: 5%;
     position: relative;
     color: grey;
     
@@ -65,7 +65,7 @@ html,body
 .lower h6
 {
     position: relative;
-    top: -4vh;
+   
     text-align: center;
     color: grey;
 }
@@ -93,7 +93,7 @@ html,body
 }
 .banner{
     
-    width:110%;
+    width:100%;
     height: 200%;
     background-color: rgb(192, 92, 147);
     text-align: center;
@@ -268,19 +268,15 @@ padding: 0px 5%;
     height:  150%;
     background-size: 17%;
      
-    
-   
-   
-    
 
 }
 .upper
 {
-    width: 100%;
+    width: 90%;
     position: fixed;
     height:10vh;
     background-color: floralwhite;
-    
+    margin: 0% 5%; 
 }
 .mintpanda
 {
@@ -547,7 +543,7 @@ button{
    
     background-color: rgb(246, 246, 63);
     text-align: center;
-    width: 110%;
+    width: 100%;
   
   
     
@@ -610,7 +606,7 @@ button{
     
     background-color :rgb(248, 58, 58);
     text-align: center;
-    width: 110%;
+    width: 100%;
 }
 .specs2 h4
 {
@@ -626,7 +622,7 @@ button{
 {
     background-color: rgb(243, 88, 139);
     text-align: center;
-    width: 110%;
+    width: 100%;
 }
 .specs3 h4
 {
@@ -642,7 +638,7 @@ button{
 {
     background-color: rgb(78, 143, 241);
    text-align: center;
-   width: 110%;
+   width: 100%;
 
 }
 .specs4 h4
