@@ -705,24 +705,26 @@ button{
     font-family: Lucida Console;
     color: yellow;
     font-size: 12px;
+    font-family: "pixel2";
 }
 .inst
 {
     background-color: black;
     text-align: center;
     height: 120%;
+    width: 110%;
 
 }
 .inst h1
 {
-    padding: 7vh;
+    padding: 17vh;
     font-family: Arial Black;
     color: lightgray;
 }
 .yellow
 {
     background-color: yellow;
-    margin: 10vh;
+    margin: 10%;
     position: relative;
     top: -10vh;
 }
