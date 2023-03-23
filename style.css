@@ -707,6 +707,7 @@ button{
     text-align: center;
     height: 120%;
     width: 110%;
+    padding: 10vh;
 
 }
 .inst h1
@@ -719,8 +720,8 @@ button{
 {
     background-color: yellow;
     margin: 10%;
-    position: relative;
-    top: -10vh;
+    
+ 
    
 }
 .yellow h5
