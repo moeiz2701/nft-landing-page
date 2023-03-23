@@ -255,19 +255,17 @@ html,body
 .ship2
 {
 padding: 0px 5%;
-    positon: absolute;
+    position: absolute;
     top: 1280px;
 }
-.twitter
-{
-   
-}
+
 .mint
 {
   background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)) ,url(7.png);
-    width: 100%;
+    width: 110%;
     height:  150%;
     background-size: 17%;
+    text-align: center;
      
 
 }
@@ -280,7 +278,7 @@ padding: 0px 5%;
 }
 .mintpanda
 {
-    position:centre;
+   text-align: center;
   
     
    position: relative;
@@ -353,8 +351,10 @@ button{
 }
 .mintbutton
 {
-
-   
+    position: relative;
+   text-align: center;
+   top: -30vh;
+   right: -15px;
   
 }
 .egg
