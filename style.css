@@ -262,9 +262,9 @@ padding: 0px 5%;
 .mint
 {
   background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)) ,url(7.png);
-    width: 110%;
-    height:  150%;
-    background-size: 17%;
+   width: 120%;
+    
+   
     text-align: center;
      
 
@@ -281,7 +281,7 @@ padding: 0px 5%;
    text-align: center;
   
     
-   position: relative;
+  padding: 20vh;
     
     
  
@@ -354,7 +354,7 @@ button{
     position: relative;
    text-align: center;
    top: -30vh;
-   right: -15px;
+   right: 15px;
   
 }
 .egg
@@ -686,10 +686,14 @@ button{
     color: black;
 
 }
-.mint h1
+.mint h3
 {
     position: relative;
-    top: -30vh;
+    top: 20vh;
+    color: yellow;
+    font-family: "pixel2";
+    padding: 0 15%;
+   
 }
 
 .instructions
