@@ -262,8 +262,8 @@ padding: 0px 5%;
 .mint
 {
     background-color: #e43603;
-   width: 150%;
-    height: 200%;
+   width: 110%;
+   
    
     text-align: center;
      
@@ -351,11 +351,9 @@ button{
 }
 .mintbutton
 {
-    position: relative;
+   
    text-align: center;
-   top: -30vh;
-   right: 15px;
-  
+   
 }
 .egg
 {
@@ -686,13 +684,13 @@ button{
     color: black;
 
 }
+
 .mint h3
 {
-    position: relative;
-    top: 20vh;
+  
     color: yellow;
     font-family: "pixel2";
-    padding: 0 15%;
+    padding: 20vh 15%;
    
 }
 
@@ -741,6 +739,8 @@ button{
     
 }
 
-.buttonloc h3
+.panda15
 {
-  
+    position: relative;
+    top: -30vh;
+}
