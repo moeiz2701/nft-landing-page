@@ -696,17 +696,11 @@ button{
 
 .instructions
 {
-    position: relative;
-    top: -22vh;
+   
+   
     
 }
-.instructions h3
-{
-    font-family: Lucida Console;
-    color: yellow;
-    font-size: 12px;
-    font-family: "pixel2";
-}
+
 .inst
 {
     background-color: black;
@@ -727,11 +721,12 @@ button{
     margin: 10%;
     position: relative;
     top: -10vh;
+   
 }
 .yellow h5
 {
     padding: 10px;
-    font-family: Lucida Console;
+    font-family: "pixel2";
     line-height: 20px;
 
 }
@@ -744,5 +739,5 @@ button{
 .panda15
 {
     position: relative;
-    top: -30vh;
+    top: -25vh;
 }
