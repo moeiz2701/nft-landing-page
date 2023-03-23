@@ -48,7 +48,7 @@ html,body
 .lower
 {
     width: 110%;
-    height: 30vh;
+   
     place-items: center;
     text-align: center;
     background-color: floralwhite;
@@ -105,7 +105,7 @@ html,body
 {
     color: yellow;
   font-size: medium;
-    margin: 4%;
+  padding: 2vh 15%;
  position: relative;
  top: -13vh;
    font-family: "pixel2";
@@ -223,8 +223,9 @@ html,body
 .buttonloc
 {
   position: relative;
-  top: -5vh;
-  font-family: "arcade";
+  top: -10vh;
+ 
+ 
    
 }
 .images
@@ -352,7 +353,7 @@ button{
 }
 .mintbutton
 {
-   
+
    
   
 }
@@ -383,11 +384,11 @@ button{
 }
 .phases
 {
-    width: 100%;
-    height: 540vh;
+    width: 110%;
+    height:100%;
     background-color:black;
     text-align: center;
-    position: relative;
+    
     
     
     
@@ -395,41 +396,18 @@ button{
 }
 .phasebutton
 {
-    position: relative;
-    top: -33vh;
+  
 
 }
-.phases h5
 
-{
-    color: lightgrey;
-    font-family: Lucida Console;
-    position: relative;
-    top: 5vh;
-    padding: 3px 15%;
-    line-height: 15px;
-
-}
-.phase2
-{
-    position: relative;
-    top: -68vh;
-}
 .phase2w
 {
-    position: relative;
-    top: -5vh
+  margin: 10vh 20%;
+  background-color: yellow;
+  height: 100%;
+}
 
-}
-.coming
-{
-     
-}
-.phase3
-{
-    position: relative;
-    top: -74vh;
-}
+
 .coming h2
 {
     font-family: Arial Black;
@@ -442,8 +420,9 @@ button{
 }
 .phase4
 {
-    position: relative;
-    top: -30vh;
+    margin: 15vh 20%;
+    background-color: yellow;
+   
    
 
 }
@@ -509,8 +488,7 @@ button{
 }
 .ship3
 {
-    position: relative;
-    top: -60vh;
+   
 }
 .now
 {
@@ -560,22 +538,19 @@ button{
 }
 .blackpanda
 {
-    padding: 20px;
+    padding: 13vh;
     background-color: black;
     text-align: center;
-    height: 50vh;
+  
 }
 .exphase
 {
-    top: 0vh;
-    position: relative;
-   
+    margin: 10vh 20%;
+   background-color: yellow;
+   height: 100%;
 
 }
-.phases h2
-{
-    color: lightgrey;
-}
+
 .coming h6
 {
     color: black;
@@ -591,14 +566,18 @@ button{
 }
 .phase4 h5
 {
-    position: relative;
-    top: 5vh;
+   
 
 }
 .text1
 {
     position: relative;
     top: -10vh;
+}
+.broke
+{
+    margin: 10vh 20%;
+    background-color: yellow;
 }
 .specs2
 {
@@ -648,43 +627,29 @@ button{
     font-family:"pixel2";
     padding: 3vh;
 }
-.phase1w
-{
-    position: relative;
-    top: -15vh;
-}
-.phase1p
-{
-    position: relative;
-    top: -75vh;
 
-}
+
 .phase1
 {
-    position: relative;
-    top: 30vh;
+  
+    margin: 10vh 20%;
+    background-color: yellow;
+    height: 100%;
 }
-.gif
-{
-    position: relative;
-    top: -62vh;
 
+.phases h5
+{
+    font-family:"pixel2";
+    padding: 20px;
 }
+
+
 .exphase2
 {
-position: relative;
-    top: -26vh;
+    margin : 10vh 20%;
+    background-color: yellow;
 }
-.broke
-{
-    position: relative;
-    top: -28vh;
-}
-.monster
-{
-    position: relative;
-    top: -75vh;
-}
+
 .reddit
 {
     position: relative;
