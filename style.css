@@ -269,7 +269,7 @@ padding: 0px 5%;
 {
     background-color: #e43603;
    width: 110%;
-   height: 250%;
+  
    
     text-align: center;
      
@@ -706,8 +706,8 @@ button{
 .yellow
 {
     background-color: yellow;
-    margin: 10%;
-    padding: 5vh;
+    margin: 0 10%;
+    
     
  
    
@@ -748,4 +748,8 @@ button{
     position: relative;
     top: -10vh;
     padding: 0 10%;
+}
+.panda
+{
+    padding: 15vh;
 }
