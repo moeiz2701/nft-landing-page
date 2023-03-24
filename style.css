@@ -141,7 +141,7 @@ html,body
 .navbar ul li a
 {
         text-decoration: none;
-    font-family: Lucida Console;
+    font-family: "pixel2";
     color:yellow;
     text-transform: uppercase;
    
@@ -734,6 +734,7 @@ button{
 {
     padding: 13vh;
 }
+
 .mint h1
 {
    
