@@ -48,26 +48,32 @@ html,body
 .lower
 {
     width: 110%;
-   
-    place-items: center;
+  position:relative;
+ 
     text-align: center;
-    background-color: floralwhite;
+    background-color:rgb(250, 247, 247);
     
+}
+.mint h6{
+    color:#e43603;
 }
 .lower h2
 {
     text-align: center;
     padding: 5vh;
     position: relative;
-    color: grey;
+    color:black;
+    font-family: "arcade";
+    font-size: 50px;
     
 }
 .lower h6
 {
     position: relative;
-   top: -20px;
+   top: -30px;
     text-align: center;
     color: grey;
+    font-family: "pixel2";
 }
 .lowerlogo
 {
@@ -136,7 +142,7 @@ html,body
 {
         text-decoration: none;
     font-family: Lucida Console;
-    color:grey;
+    color:yellow;
     text-transform: uppercase;
    
 }
@@ -144,7 +150,7 @@ html,body
     content: '';
     height:3px;
     width:5%;
-    background: black;
+    background: yellow;
     position : absolute;
     left: 0;
     bottom: -10px;
@@ -263,7 +269,7 @@ padding: 0px 5%;
 {
     background-color: #e43603;
    width: 110%;
-   
+   height: 250%;
    
     text-align: center;
      
@@ -274,7 +280,9 @@ padding: 0px 5%;
     width: 110%;
     position: fixed;
     height:10vh;
-    background-color: floralwhite;
+    background-color:black;
+    background: linear-gradient(rgba(0,0,0,0.45),(0,0,0,0.35));
+
 }
 .mintpanda
 {
@@ -353,6 +361,7 @@ button{
 {
    
    text-align: center;
+   padding : 5vh;
    
 }
 .egg
@@ -690,30 +699,15 @@ button{
   
     color: yellow;
     font-family: "pixel2";
-    padding: 20vh 15%;
+    padding: 0vh 15%;
    
 }
 
-
-
-.inst
-{
-    background-color: black;
-    text-align: center;
-    width: 110%;
-    padding: 10vh;
-
-}
-.inst h1
-{
-    padding: 17vh;
-    font-family: Arial Black;
-    color: lightgray;
-}
 .yellow
 {
     background-color: yellow;
     margin: 10%;
+    padding: 5vh;
     
  
    
@@ -734,5 +728,24 @@ button{
 .panda15
 {
     position: relative;
-    top: -25vh;
+    padding: 15vh;
+}
+.mint h1
+{
+    position: relative;
+    font-family: "arcade";
+    font-size: 80px;
+    line-height: 50px;
+    color:rgb(64, 39, 87);
+    top: -15vh;
+  
+   
+}
+.mint h2{
+    color:rgb(64, 39, 87);
+    font-family: "pixel2";
+    
+    position: relative;
+    top: -10vh;
+    padding: 0 10%;
 }
