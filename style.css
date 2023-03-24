@@ -269,7 +269,7 @@ padding: 0px 5%;
 {
     background-color: #e43603;
    width: 110%;
-  
+ 
    
     text-align: center;
      
@@ -730,14 +730,19 @@ button{
     position: relative;
     padding: 15vh;
 }
+.minted
+{
+    padding: 13vh;
+}
 .mint h1
 {
-    position: relative;
+   
     font-family: "arcade";
     font-size: 80px;
     line-height: 50px;
     color:rgb(64, 39, 87);
-    top: -15vh;
+  
+    
   
    
 }
@@ -746,8 +751,8 @@ button{
     font-family: "pixel2";
     
     position: relative;
-    top: -10vh;
-    padding: 0 10%;
+   
+    padding: 3vh 10%;
 }
 .panda
 {
