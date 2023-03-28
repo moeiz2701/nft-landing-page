@@ -101,7 +101,7 @@ html,body
     
     width:110%;
     height: 200%;
-    background-color: rgb(192, 92, 147);
+    background-color: whitesmoke;
     text-align: center;
     position: relative;
     background-size: 17%;
@@ -109,7 +109,7 @@ html,body
 }
 .banner h6
 {
-    color: yellow;
+    color: rgb(78, 73, 73);
   font-size: medium;
   padding: 2vh 15%;
  position: relative;
