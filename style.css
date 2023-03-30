@@ -100,7 +100,7 @@ html,body
 .banner{
     
     width:110%;
-    
+    height: 200%;
     background-color: whitesmoke;
     text-align: center;
     position: relative;
@@ -109,7 +109,7 @@ html,body
 }
 .banner h6
 {
-    color: rgb(78, 73, 73);
+    color: rgb(65, 57, 57);
   font-size: medium;
   padding: 2vh 15%;
  position: relative;
@@ -440,6 +440,7 @@ button{
 {
    
     position: relative;
+    top: 1vh;
     
     
 }
@@ -758,4 +759,46 @@ button{
 .panda
 {
     padding: 15vh;
+}
+.heaven
+{
+    width: 110%;
+    background-size: cover;
+   text-align: center;
+   background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)) ,url(pandahev.png)
+}
+
+.cash
+{
+    background-color: rgb(25, 25, 25);
+    width: 110%;
+    text-align: center;
+}
+.cash h5
+{
+    color:darkgrey;
+    padding: 5vh 10%;
+    text-align: center;
+    font-family: "pixel2";
+    line-height: 25px;
+}
+.heaven h2{
+    font-family: "arcade";
+    color: #f5ce62;
+    font-size: 80px;
+}
+.glasses
+{
+   
+    padding: 5vh;
+}
+.cash h2{
+    font-family: "pixel";
+    color: #e43603;
+    font-size: 50px;
+    padding: 3vh 5%;
+}
+.cash h1
+{
+    color: rgb(25, 25, 25);
 }
