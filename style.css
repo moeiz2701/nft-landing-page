@@ -802,3 +802,8 @@ button{
 {
     color: rgb(25, 25, 25);
 }
+.buttonloc h3
+{
+    font-family: "pixel2";
+    font-size: 18px;
+}
